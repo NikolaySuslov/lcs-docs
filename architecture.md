@@ -1,0 +1,20 @@
+# Architecture
+
+**[LiveCoding.space](https://livecoding.space)** ```v0.2``` architecture moves **[Virtual World Framework](https://en.wikipedia.org/wiki/Virtual_world_framework)** architecture towards pure-decentralized application by introducing:
+
+- **single page web application**
+- **client-side router** (generating **instances IDs** by client) ([about Page.js](https://visionmedia.github.io/page.js/))
+- file storage independent **Reflector**
+- **GunDB storage system** for serving ```Proxy VWF components```, ```Worlds prototypes```, ```World save states```, ```User Inventories``` etc. in fully decentralized (peer-to-peer or multi-master) DB ([about GunDB](https://gun.eco/docs/Introduction))
+- **GunDB SEA** (Security, Encryption, Authorization) framework for user authorization and **P2P identities** ([about SEA](https://gun.eco/docs/Auth))
+
+alongside with the existed features from the initial version ```v0.1```:
+
+- **Decentralized network model for A-Frame components** and entities based on VWF replicated computation architecture
+- **Ohm language driver** for sharing user-defined grammars, parsers, tokenisers inside virtual space
+- **In browser Code and Properties editor** based on Cell.js
+- **OSC messaging** through OSC relay on the client
+- **Avatars** (Simple and GLTF models with animation)
+- Multi-window or multi-monitor/multi-machine setups with view **offset cameras**
+- **WebRTC** for video/audio streaming, 3D positional audio support
+- GearVR, Windows MixedReality motion **controllers** ..
