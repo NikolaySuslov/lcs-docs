@@ -1,5 +1,7 @@
 # Installation
 
+!> Use these install instructions, if you want to install LiveCoding.space on your own server
+
 **Requirements:**
 - OS: Linux, Mac OS X, Windows 
 - Language VM: **NodeJS v.10.x**
@@ -16,7 +18,7 @@ Server for hosting LCS **single page web application**, providing access to the 
 To install:
 1. Clone: ```git clone https://github.com/NikolaySuslov/livecodingspace.git```
 2. Install: ```npm install```
-3. Run: ```npm start``` (for localhost testing using http) 
+3. Run: ```npm start``` (for localhost testing using http, default port ```3007```) 
 
 or ```npm startSSL``` (https needs certs)
 
@@ -31,7 +33,7 @@ Reflector is a tiny server from VWF application architecture, that is modified t
 To install:
 1. Clone: ```git clone https://github.com/NikolaySuslov/lcs-reflector```
 2. Install: ```npm install```
-3. Run: ```npm start``` (for localhost testing using http) 
+3. Run: ```npm start``` (for localhost testing using http, default port ```3002```) 
 
 or ```npm startSSL``` (https needs certs)
 
@@ -46,7 +48,7 @@ You could use any running already GunDB storage system in the network or run you
 To install:
 1. Clone: ```git clone https://github.com/NikolaySuslov/lcs-storage.git```
 2. Install: ```npm install```
-3. Run: ```npm start``` (for localhost testing using http) 
+3. Run: ```npm start``` (for localhost testing using http, default port ```8080```)
 
 or ```npm startSSL``` (https needs certs)
 
@@ -55,7 +57,7 @@ or ```npm startSSL``` (https needs certs)
 After **fresh & clean** install, to start working with LCS application we need to go through setup process:
 
 1. Point web browser to LCS app: [https://localhost:3007](https://localhost:3007)
-2. Check out and fill (if needed) the ```Reflector``` and ```DB host``` fields with right network addresses.
+2. Check out and fill (if needed) the ```Reflector``` and ```DB host``` fields with the right network addresses.
 2. ```Sing UP``` with a new user (for example login: ```app```)
 3. Point web browser to setup page: [https://localhost:3007/setup](https://localhost:3007/setup) and set app system PUB key.
 4. Reload [https://localhost:3007/setup](https://localhost:3007/setup) page and procceed with the next setup steps.

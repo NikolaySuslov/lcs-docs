@@ -2,4 +2,5 @@
 * [Architecture](architecture.md)
 * [Install](install.md)
 * [User Guide](userguide.md)
+* [Live coding](livecoding.md)
 * [Developer Guide](develop.md)
